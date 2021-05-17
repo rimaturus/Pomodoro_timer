@@ -102,14 +102,14 @@ int main(){
 	cin >> sel;
 	
 	if(sel == 0){
-		cout << "Enter study time in the format HH: MM: SS		";
+		cout << "Enter study time in the format HH:MM:SS		";
 		cin >> t_studio;
 		
 		hh_study = int(t_studio[0] - '0')*10 + int(t_studio[1] - '0');
 		mm_study = int(t_studio[3] - '0')*10 + int(t_studio[4] - '0');
 		ss_study = int(t_studio[6] - '0')*10 + int(t_studio[7] - '0');
 		
-		cout << "Enter relaxation time in the format HH: MM: SS		";
+		cout << "Enter relaxation time in the format HH:MM:SS		";
 		cin >> t_relax;
 		
 		hh_relax = int(t_relax[0] - '0')*10 + int(t_relax[1] - '0');
